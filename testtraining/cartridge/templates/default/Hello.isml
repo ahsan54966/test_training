@@ -1,0 +1,12 @@
+<!--- TEMPLATENAME: Hello.isml --->
+<html>
+<head>
+<title>Hello</title>
+</head>
+<body>
+	<isinclude template="product/components/variations"/>
+	<p>${pdict.CurrentForms.FirstForm.firstname.label}
+		${pdict.CurrentForms.FirstForm.firstname.value}</p>
+	Hi I am Second
+</body>
+</html>
