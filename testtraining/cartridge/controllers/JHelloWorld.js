@@ -5,6 +5,10 @@
 var guard = require('app_sitegenesis_controllers/cartridge/scripts/guard');
 var ISML = require('dw/template/ISML');
 function start() {
+	
+	
+	
+	
 	ISML.renderTemplate(
 			'Hello.isml', {
 			myParameteronISML:
@@ -14,6 +18,7 @@ function start() {
 };
 
 function start2() {
+	
 	ISML.renderTemplate(
 			'a1.isml'
 			);
